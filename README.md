@@ -1,4 +1,4 @@
-# codewars
-Code Wars Practice Activities
+# Codewars
+> Collection of completed Javascript Codewars challenges 
 
-> https://www.codewars.com/users/NateA275
+https://www.codewars.com/users/NateA275
