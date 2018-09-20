@@ -1,3 +1,4 @@
+## Codewars Description
 You have just boarded a train when your friend texts you to ask how long it will take your train to reach the stop where they're waiting for you.
 
 Assuming that you know the distance in km and the train's average speed in km/h, let your friend know how long it will take the train to reach their stop, rounding the time to the nearest half hour.
@@ -14,4 +15,14 @@ Your function should return:
 
 Hint: Keep in mind that the returned sentence needs to follow basic grammatical rules.
 
+## Solution
+```Javascript
+function reachDestination(distance, speed) {
+  let t = Math.round((distance/speed)*2)/2;
+  let str = (t === 1) ? 'hour' : 'hours';
+  return(`The train will be there in ${t} ${str}.`);
+};
+```
+
+## Link
 https://www.codewars.com/kata/how-long-will-it-take-the-train-to-reach-its-final-destination/train/javascript
